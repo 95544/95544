@@ -42,3 +42,60 @@ print("{}月对应的英文缩写是:{}".format(monthid,month[pos:pos+3]))
 rmb=input("请输入要兑换的人民币，以￥结束：")
 my=float(rmb[0:-1])*0.1456
 print("{}人民币可以兑换{:.2f}美元".format(float(rmb[0:-1]),my))
+
+
+
+<!-- xcLeigh
+https://blog.csdn.net/weixin_43151418 -->
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>细语甜言与卿听</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+	<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+  </head>
+  <body oncontextmenu="return false;" onselectstart="return false;" unselectable="on" ondragstart="return false;">
+  <div class="chat_window">
+    <div class="top_menu">
+        <div class="buttons">
+            <div class="button close"></div>
+            <div class="button minimize"></div>
+            <div class="button maximize"></div>
+        </div>
+        <div class="title">细语甜言与卿听</div>
+    </div>
+    <ul class="messages"></ul>
+    <div class="bottom_wrapper clearfix">
+        <div class="send_message" onclick="location.href='yujian.html'" style="background-color:rgb(145,0,255,0.3); cursor:default;">
+            <div class="icon"></div>
+            <div class="text">遇见</div>
+        </div>
+        <div class="send_message" onclick="location.href='xiangshu.html'">
+            <div class="icon"></div>
+            <div class="text">相熟</div>
+        </div>
+        <div class="send_message" onclick="location.href='xiangzhi.html'">
+            <div class="icon"></div>
+            <div class="text">相知</div>
+        </div>
+        <div class="send_message" onclick="location.href='xiangnian.html'">
+            <div class="icon"></div>
+            <div class="text">相恋</div>
+        </div>
+    </div>
+</div>
+<div class="message_template">
+    <li class="message">
+        <div class="avatar">
+		</div>
+        <div class="text_wrapper">
+            <div class="text"></div>
+        </div>
+    </li>
+</div>
+  </body>
+</html>
