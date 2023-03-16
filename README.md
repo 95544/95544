@@ -8,4 +8,10 @@ s = "www.moe.gov.cn" print("第一个字符是:",s[0]) print("前三个字符是
 
 
 
-                                               myName = input("我的名字是：")firstChumName = input("我第一个室友的名字是：")secondChumName = input("我第二个室友的名字是：")thirdChumName = input("我第三个室友的名字是：")print("我们的组合是："+myName[-1]+firstChumName[-1]+secondChumName[-1]+thirdChumName[-1])                                                                                                                                                                                                                                                                
+                                               myName = input("我的名字是：")firstChumName = input("我第一个室友的名字是：")secondChumName = input("我第二个室友的名字是：")thirdChumName = input("我第三个室友的名字是：")print("我们的组合是："+myName[-1]+firstChumName[-1]+secondChumName[-1]+thirdChumName[-1]) 
+moths="JanFebMarAprMayJunJulAugSepOctNovDec"
+n=input()
+pos=(int(n)-1)*3
+mothAbbrev=moths[pos:pos+3]
+print(mothAbbrev)
+                                                                                                                                                                                                                                                               
