@@ -14,3 +14,8 @@ x = input('Please input x:') x = eval(x) if 0<=x<5: print(x) elif 5<=x<10: print
 
 
 
+money1=input("请输入欲兑换的数量(人民币以￥美元以$)结束:") money=eval(money1[0:-1]) if money1[-1]=="￥": money2=money/6 print("人民币{0:}元可以兑换{1:.2f}美元".format(money1,money2)) elif money1[-1]=="$": money2=money*6 print("{}美元可以兑换人民币{}元".format(money1,money2))
+
+
+
+
