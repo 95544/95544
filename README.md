@@ -49,3 +49,8 @@ while i <= 2000:
 #for语句
 k = 0
 for 
+
+
+
+
+import randomli = []# 创建含30个10~99之间的随机两位数的列表for i in range(30):    li.append(random.randint(10, 99))# 按每五个一行降序打印输出for i in range(len(li)):    if i % 5 == 0:        print()    print(li[i], end='\t')li = sorted(list(set(li)))  # 利用set去重并升序排序result = []# 按每8个一行不重复的结果升序打印输出for i in li:    if i not in result:        result.append(i)        if len(result) % 8 == 0:            print()        print(i, end='\t')
